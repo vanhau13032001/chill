@@ -91,12 +91,54 @@ const app={
             img:'./img/cr7_20.jpg'
         },
         {
-            name :'Not Afraid',
-            singer:'Eminem',
-            path:'./music/NotAfraid-Eminem.mp3',
-            img:'./img/cr7_20.jpg'
+            name :'Fake Love',
+            singer:'Englissh Cover',
+            path:'./music/FakeLoveEnglishCover-Nightcore-5873064.mp3',
+            img:'./img/cr7_21.jpg'
+        },
+        {
+            name :'Dusk Till Dawn',
+            singer:'ZaynSia',
+            path:'./music/DuskTillDawn-ZaynSia-5164057.mp3',
+            img:'./img/cr7_22.jpg'
         },
         
+        {
+            name :'Dynasty',
+            singer:'Miia',
+            path:'./music/Dynasty-Miia-3843630.mp3',
+            img:'./img/cr7_3.jpg'
+        },
+        {
+            name :'Numb',
+            singer:'Linkin Part',
+            path:'./music/Numb-LinkinPark.mp3',
+            img:'./img/cr7_4.jpg'
+        },
+        {
+            name :'That Girl',
+            singer:'Linkin Part',
+            path:'./music/ThatGirl-OllyMurs.mp3',
+            img:'./img/cr7_5.jpg'
+        },
+        {
+            name :'Unstoppable',
+            singer:'Sia',
+            path:'./music/Unstoppable-Sia-9034865.mp3',
+            img:'./img/cr7_6.jpg'
+        },
+        {
+            name :'Until You',
+            singer:'Shayne Ward',
+            path:'./music/UntilYou-ShayneWard.mp3',
+            img:'./img/cr7_7.jpg'
+        },
+        {
+            name :'Perfect',
+            singer:'Edsheeran',
+            path:'./music/Perfect-EdSheeran-6445593.mp3',
+            img:'./img/cr7_8jpg.jpg'
+        },
     ],
     render:function(){
         const htmls=this.songs.map((song ,index)=>{
@@ -190,7 +232,6 @@ const app={
            else{
                _this.nextSong();
            }
-          
             audio.play();
             _this.render();
             _this.scolltoactivesong();
@@ -220,6 +261,13 @@ const app={
            else{
             _this.nextSong();
            }
+           if(_this.israndom)
+           {
+               _this.playrandomsong();
+           }
+           else{
+               _this.nextSong();
+           }
            _this.scolltoactivesong();
            _this.render();
            audio.play();
@@ -229,7 +277,8 @@ const app={
            _this.isrepeat=!_this.isrepeat;
            btnrepeat.classList.toggle('active',_this.isrepeat);
     }
-     playlist.onclick=function(e){
+     playlist.onclick=function(e)
+     {
          const nodesong=e.target.closest('.song:not(.active)');
        if(nodesong||e.target.closest('.option'))
        {
