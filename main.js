@@ -90,6 +90,13 @@ const app={
             path:'./music/NotAfraid-Eminem.mp3',
             img:'./img/cr7_20.jpg'
         },
+        {
+            name :'Not Afraid',
+            singer:'Eminem',
+            path:'./music/NotAfraid-Eminem.mp3',
+            img:'./img/cr7_20.jpg'
+        },
+        
     ],
     render:function(){
         const htmls=this.songs.map((song ,index)=>{
