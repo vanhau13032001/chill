@@ -24,6 +24,7 @@ const app={
             path:'./music/chuyen_doi_ta.mp3',
             img:'./img/images1.jpg'
         },
+        
         {
             name :'All Of Me',
             singer:'John Legend',
