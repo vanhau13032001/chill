@@ -119,7 +119,7 @@ const app={
             name :'That Girl',
             singer:'Linkin Part',
             path:'./music/ThatGirl-OllyMurs.mp3',
-            img:'./img/cr7_5.jpg'
+            img:'./img/cr7_15.jpg'
 
         },
         {
@@ -140,6 +140,7 @@ const app={
             path:'./music/UntilYou-ShayneWard.mp3',
             img:'./img/cr7_7.jpg'
         },
+       
     ],
     render:function(){
         const htmls=this.songs.map((song ,index)=>{

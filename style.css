@@ -18,7 +18,7 @@ html {
 
 .player {
   position: relative;
-  max-width: 370px;
+  max-width: 350px;
   margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ html {
   top: 0;
   border-radius: 10px;
   width: 100%;
-  max-width: 370px;
+  max-width: 350px;
   border-bottom: 1px solid #ebebeb;
 }
 .music-card__background {
@@ -74,7 +74,7 @@ header h2 {
 .cd {
   display: flex;
   margin: auto;
-  width: 180px;
+  width: 200px;
 }
 
 .cd-thumb {
@@ -168,13 +168,12 @@ header h2 {
   margin-top: 470px;
   padding: 12px;
 }
-
 .song {
   display: flex;
   align-items: center;
   margin-bottom: 8px;
   background-color: #fff;
-  padding: 8px 16px;
+  padding: 8px 12px;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
