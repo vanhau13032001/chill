@@ -121,6 +121,7 @@ const app={
             singer:'Linkin Part',
             path:'./music/ThatGirl-OllyMurs.mp3',
             img:'./img/cr7_5.jpg'
+            
         },
         {
             name :'Unstoppable',
