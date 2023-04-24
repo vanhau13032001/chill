@@ -121,6 +121,7 @@ header h2 {
   color: #d3d3d3;
   display: flex;
   align-items: center;
+  margin: 0 8px;
 }
 .progress {
   width: 80%;
