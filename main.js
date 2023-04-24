@@ -103,7 +103,6 @@ const app={
             path:'./music/DuskTillDawn-ZaynSia-5164057.mp3',
             img:'./img/cr7_22.jpg'
         },
-        
         {
             name :'Dynasty',
             singer:'Miia',
@@ -121,7 +120,7 @@ const app={
             singer:'Linkin Part',
             path:'./music/ThatGirl-OllyMurs.mp3',
             img:'./img/cr7_5.jpg'
-            
+
         },
         {
             name :'Unstoppable',
