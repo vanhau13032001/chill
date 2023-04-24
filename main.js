@@ -140,12 +140,6 @@ const app={
             path:'./music/UntilYou-ShayneWard.mp3',
             img:'./img/cr7_7.jpg'
         },
-        {
-            name :'Until You',
-            singer:'Shayne Ward',
-            path:'./music/UntilYou-ShayneWard.mp3',
-            img:'./img/cr7_7.jpg'
-        },
        
     ],
     render:function(){
