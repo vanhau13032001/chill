@@ -129,17 +129,18 @@ const app={
             img:'./img/cr7_6.jpg'
         },
         {
-            name :'Until You',
-            singer:'Shayne Ward',
-            path:'./music/UntilYou-ShayneWard.mp3',
-            img:'./img/cr7_7.jpg'
-        },
-        {
             name :'Perfect',
             singer:'Edsheeran',
             path:'./music/Perfect-EdSheeran-6445593.mp3',
             img:'./img/cr7_8jpg.jpg'
         },
+        {
+            name :'Until You',
+            singer:'Shayne Ward',
+            path:'./music/UntilYou-ShayneWard.mp3',
+            img:'./img/cr7_7.jpg'
+        },
+       
     ],
     render:function(){
         const htmls=this.songs.map((song ,index)=>{
