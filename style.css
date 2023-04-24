@@ -18,7 +18,7 @@ html {
 
 .player {
   position: relative;
-  max-width: 350px;
+  max-width: 340px;
   margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ html {
   top: 0;
   border-radius: 10px;
   width: 100%;
-  max-width: 350px;
+  max-width: 340px;
   border-bottom: 1px solid #ebebeb;
 }
 .music-card__background {
